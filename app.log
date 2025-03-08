@@ -25,3 +25,257 @@
 2025-02-27 14:33:51,501 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
 2025-02-27 14:33:51,513 [INFO] Prediction: ham
 2025-02-27 14:33:51,513 [INFO] 127.0.0.1 - - [27/Feb/2025 14:33:51] "POST /predict HTTP/1.1" 200 -
+2025-03-08 23:43:11,346 [INFO] Model and vectorizer loaded successfully.
+2025-03-08 23:43:11,435 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-08 23:43:11,435 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-08 23:43:30,438 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-03-08 23:43:31,807 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 57, in predict
+    X_tfidf = vectorizer.transform([clean_text])
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'transform'
+2025-03-08 23:43:31,808 [INFO] 127.0.0.1 - - [08/Mar/2025 23:43:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-08 23:49:45,260 [INFO] Model and vectorizer loaded successfully.
+2025-03-08 23:49:45,260 [INFO] Model type: <class 'NoneType'>
+2025-03-08 23:49:45,260 [INFO] Vectorizer type: <class 'NoneType'>
+2025-03-08 23:49:45,287 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-08 23:49:45,287 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-08 23:50:19,050 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-03-08 23:50:20,400 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 60, in predict
+    X_tfidf = vectorizer.transform([clean_text])
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'transform'
+2025-03-08 23:50:20,401 [INFO] 127.0.0.1 - - [08/Mar/2025 23:50:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-09 00:02:44,890 [INFO] Model and vectorizer loaded successfully.
+2025-03-09 00:02:44,890 [INFO] Model type: <class 'NoneType'>
+2025-03-09 00:02:44,890 [INFO] Vectorizer type: <class 'NoneType'>
+2025-03-09 00:02:44,942 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-09 00:02:44,942 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-09 00:03:03,741 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-03-09 00:03:05,068 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    X_tfidf = vectorizer.transform([clean_text])
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'transform'
+2025-03-09 00:03:05,069 [INFO] 127.0.0.1 - - [09/Mar/2025 00:03:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-09 00:17:19,584 [INFO] Model and vectorizer loaded successfully.
+2025-03-09 00:17:19,584 [INFO] Model type: <class 'NoneType'>
+2025-03-09 00:17:19,585 [INFO] Vectorizer type: <class 'NoneType'>
+2025-03-09 00:17:19,605 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-09 00:17:19,605 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-09 00:17:26,734 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-03-09 00:17:28,030 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    X_tfidf = vectorizer.transform([clean_text])
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'transform'
+2025-03-09 00:17:28,031 [INFO] 127.0.0.1 - - [09/Mar/2025 00:17:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-09 00:25:17,896 [INFO] Model and vectorizer loaded successfully.
+2025-03-09 00:25:17,896 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-03-09 00:25:17,896 [INFO] Vectorizer type: <class 'NoneType'>
+2025-03-09 00:25:17,905 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-09 00:25:17,905 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-09 00:28:49,450 [INFO] Model and vectorizer loaded successfully.
+2025-03-09 00:28:49,450 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-03-09 00:28:49,450 [INFO] Vectorizer type: <class 'sklearn.feature_extraction.text.TfidfVectorizer'>
+2025-03-09 00:28:49,458 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-09 00:28:49,458 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-09 00:28:58,374 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-03-09 00:28:59,734 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 69, in predict
+    prediction = model.predict(X_combined)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 787, in predict
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 2128, in transform
+    X = super().transform(raw_documents)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 1421, in transform
+    _, X = self._count_vocab(raw_documents, fixed_vocab=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 1261, in _count_vocab
+    for doc in raw_documents:
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/scipy/sparse/_base.py", line 262, in __iter__
+    yield self[r]
+          ~~~~^^^
+TypeError: 'coo_matrix' object is not subscriptable
+2025-03-09 00:28:59,738 [INFO] 127.0.0.1 - - [09/Mar/2025 00:28:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-09 00:30:14,932 [INFO] Model and vectorizer loaded successfully.
+2025-03-09 00:30:14,933 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-03-09 00:30:14,933 [INFO] Vectorizer type: <class 'sklearn.feature_extraction.text.TfidfVectorizer'>
+2025-03-09 00:30:14,940 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-09 00:30:14,940 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-09 00:30:21,398 [INFO] Model and vectorizer loaded successfully.
+2025-03-09 00:30:21,399 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-03-09 00:30:21,399 [INFO] Vectorizer type: <class 'sklearn.feature_extraction.text.TfidfVectorizer'>
+2025-03-09 00:30:21,403 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-09 00:30:21,403 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-09 00:30:26,682 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-03-09 00:30:28,007 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 61, in predict
+    prediction = model.predict(X_tfidf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 787, in predict
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 2128, in transform
+    X = super().transform(raw_documents)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 1421, in transform
+    _, X = self._count_vocab(raw_documents, fixed_vocab=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 1263, in _count_vocab
+    for feature in analyze(doc):
+                   ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 104, in _analyze
+    doc = preprocessor(doc)
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/data_preprocessing.py", line 10, in basic_cleaning
+    text = text.lower()
+           ^^^^^^^^^^
+AttributeError: 'csr_matrix' object has no attribute 'lower'
+2025-03-09 00:30:28,010 [INFO] 127.0.0.1 - - [09/Mar/2025 00:30:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-09 00:31:38,896 [INFO] Model and vectorizer loaded successfully.
+2025-03-09 00:31:38,896 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-03-09 00:31:38,896 [INFO] Vectorizer type: <class 'sklearn.feature_extraction.text.TfidfVectorizer'>
+2025-03-09 00:31:38,903 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-09 00:31:38,903 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-09 00:31:46,402 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-03-09 00:31:46,407 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 61, in predict
+    prediction = model.predict(X_tfidf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 787, in predict
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 2128, in transform
+    X = super().transform(raw_documents)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 1421, in transform
+    _, X = self._count_vocab(raw_documents, fixed_vocab=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 1263, in _count_vocab
+    for feature in analyze(doc):
+                   ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 104, in _analyze
+    doc = preprocessor(doc)
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/data_preprocessing.py", line 10, in basic_cleaning
+    text = text.lower()
+           ^^^^^^^^^^
+AttributeError: 'csr_matrix' object has no attribute 'lower'
+2025-03-09 00:31:46,412 [INFO] 127.0.0.1 - - [09/Mar/2025 00:31:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-09 00:33:19,898 [INFO] Model and vectorizer loaded successfully.
+2025-03-09 00:33:19,899 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-03-09 00:33:19,899 [INFO] Vectorizer type: <class 'sklearn.feature_extraction.text.TfidfVectorizer'>
+2025-03-09 00:33:19,907 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-09 00:33:19,907 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-09 00:33:29,846 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-03-09 00:33:29,849 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 60, in predict
+    prediction = model.predict(X_tfidf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 787, in predict
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 2128, in transform
+    X = super().transform(raw_documents)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 1421, in transform
+    _, X = self._count_vocab(raw_documents, fixed_vocab=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 1263, in _count_vocab
+    for feature in analyze(doc):
+                   ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 104, in _analyze
+    doc = preprocessor(doc)
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/data_preprocessing.py", line 10, in basic_cleaning
+    text = text.lower()
+           ^^^^^^^^^^
+AttributeError: 'csr_matrix' object has no attribute 'lower'
+2025-03-09 00:33:29,853 [INFO] 127.0.0.1 - - [09/Mar/2025 00:33:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-09 00:36:09,897 [INFO] Model and vectorizer loaded successfully.
+2025-03-09 00:36:09,897 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-03-09 00:36:09,897 [INFO] Vectorizer type: <class 'sklearn.feature_extraction.text.TfidfVectorizer'>
+2025-03-09 00:36:09,903 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-09 00:36:09,905 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-09 00:36:17,625 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-03-09 00:36:17,629 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 60, in predict
+    prediction = model.predict(X_tfidf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 787, in predict
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 2128, in transform
+    X = super().transform(raw_documents)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 1421, in transform
+    _, X = self._count_vocab(raw_documents, fixed_vocab=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 1263, in _count_vocab
+    for feature in analyze(doc):
+                   ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/feature_extraction/text.py", line 104, in _analyze
+    doc = preprocessor(doc)
+          ^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/data_preprocessing.py", line 10, in basic_cleaning
+    text = text.lower()
+           ^^^^^^^^^^
+AttributeError: 'csr_matrix' object has no attribute 'lower'
+2025-03-09 00:36:17,632 [INFO] 127.0.0.1 - - [09/Mar/2025 00:36:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-09 00:38:08,070 [INFO] Model (pipeline) loaded successfully.
+2025-03-09 00:38:08,070 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-03-09 00:38:08,078 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.217:5001
+2025-03-09 00:38:08,078 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-09 00:38:15,406 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-03-09 00:38:15,415 [INFO] Prediction: spam
+2025-03-09 00:38:15,416 [INFO] 127.0.0.1 - - [09/Mar/2025 00:38:15] "POST /predict HTTP/1.1" 200 -

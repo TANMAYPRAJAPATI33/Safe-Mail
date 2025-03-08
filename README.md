@@ -2,36 +2,27 @@
 # Email Spam Detection System
 
 ## Overview
-
-The Email Spam Detection System is a full-cycle machine learning application that identifies whether an email is spam or not. The system:
-
-- **Preprocesses Email Data:** Loads, cleans, and converts email text into numerical features using TF-IDF.
-- **Trains a Classification Model:** Uses Logistic Regression (with hyperparameter tuning via GridSearchCV) to classify emails as "spam" or "ham".
-- **Provides an API:** Exposes a RESTful `/predict` endpoint via a Flask application, which processes email text and returns predictions.
-- **Uses Docker for Containerization:** Packages the entire application (code, model, and dependencies) into a Docker container for consistent and portable deployment.
-- **Includes Logging & Error Handling:** Tracks requests and predictions, with detailed logs for debugging and monitoring.
-
-This project serves as a strong foundation for further improvements and integrations, such as developing a Gmail extension for real-time spam detection.
+The Email Spam Detection System is a full-cycle machine learning application that classifies emails as spam or ham. Recent improvements include:
+- Expanded dataset integration (e.g., SpamAssassin) for better coverage.
+- Advanced feature engineering (URL count, suspicious keywords, etc.).
+- A unified scikit-learn pipeline (TF-IDF + Logistic Regression) to avoid double preprocessing.
+- Docker support for consistent deployment.
 
 ## Features
-
-- **Email Preprocessing:**  
-  - Cleaning (converting to lowercase, removing HTML tags and punctuation).  
-  - TF-IDF vectorization for feature extraction.
-  
-- **Model Training & Evaluation:**  
-  - Baseline and tuned Logistic Regression classifier using GridSearchCV.
-  - Evaluation using metrics like accuracy, precision, recall, F1-score, and a confusion matrix.
-
-- **API Service:**  
-  - Flask API with a `/predict` endpoint that accepts email text (in JSON format) and returns a spam/ham prediction.
-  - Robust logging and error handling.
-
-- **Containerization:**  
-  - Dockerfile provided to build an image containing the entire application for seamless deployment.
+- **Email Preprocessing**  
+  - Cleans text (lowercase, remove HTML/punctuation).
+  - Optionally performs tokenization, stopword removal, lemmatization.
+  - Uses TF-IDF for feature extraction.
+- **Model Training & Evaluation**  
+  - Logistic Regression (with optional hyperparameter tuning).
+  - Evaluation metrics: accuracy, precision, recall, F1-score.
+- **API Service**  
+  - Flask API at `/predict` for real-time classification (JSON input → JSON output).
+  - Comprehensive logging and error handling.
+- **Containerization**  
+  - Dockerfile provided for building and running the application in a portable environment.
 
 ## Technologies Used
-
 - Python 3.11
 - Flask
 - scikit-learn
@@ -39,27 +30,32 @@ This project serves as a strong foundation for further improvements and integrat
 - joblib
 - Docker
 
-
-## 5. Project Structure
-
+## Project Structure
 ```bash
 Safe-Mail/
 ├── data/
-│   └── spam_dataset.csv        # Sample dataset with email text and labels
-├── models/                     # Directory for storing trained model files
+│   ├── spamassassin/              # Contains ham/spam from SpamAssassin
+│   ├── expanded_spam_dataset.csv  # Combined dataset (SpamAssassin, etc.)
+│   └── spam_dataset.csv           # Original small dataset
+├── models/
+│   ├── spam_detector.pkl          # Final trained model pipeline
+│   └── tfidf_vectorizer.pkl       # (If separately saved)
 ├── src/
-│   ├── __init__.py             # (Optional) Makes src a Python package
-│   ├── data_preprocessing.py   # Functions for loading, cleaning, and vectorizing email data
-│   ├── model_training.py       # Baseline model training script
-│   ├── model_training_lr.py    # Logistic Regression training with hyperparameter tuning
-│   └── test_model.py           # Model evaluation script
-├── app.py                      # Flask API serving model predictions
-├── Dockerfile                  # Dockerfile for containerizing the application
-├── requirements.txt            # List of Python dependencies
-└── README.md                   # This documentation guide
+│   ├── __init__.py                # Makes src a Python package (optional)
+│   ├── data_preprocessing.py      # Basic data loading/cleaning
+│   ├── advanced_preprocessing.py  # Advanced text processing
+│   ├── feature_engineering.py     # Additional numeric feature extraction
+│   ├── model_training_lr.py       # Logistic Regression pipeline training
+│   ├── model_training_advanced.py # Advanced training script
+│   ├── model_tuning_lr.py         # Hyperparameter tuning
+│   └── test_model.py              # Model evaluation
+├── app.py                         # Flask API
+├── Dockerfile                     # Docker container definition
+├── convert_spamassassin_to_csv.py # Script to convert SpamAssassin data into CSV
+├── requirements.txt               # Python dependencies
+├── save_model.py                  # Script to save model/vectorizer
+└── README.md                      # Project documentation
 
-
----
 
 ## 6. Installation & Setup
 
@@ -160,28 +156,30 @@ Logs are output both to the console and an app.log file in the project root for 
 
 --
 10. Future Enhancements
+
 Model Improvements:
+1. Expand the dataset further (e.g., incorporating SpamAssassin or Enron).
+2. Experiment with additional classifiers (SVM, Random Forest, neural networks).
+3. Enhance feature engineering (e.g., using pre-trained embeddings or transformer-based models).
 
-Expand the dataset (e.g., incorporating SpamAssassin or Enron datasets).
-Experiment with additional classifiers (SVM, Random Forest, or neural networks).
-Enhance feature engineering (e.g., using pre-trained embeddings or transformer-based models).
 Gmail Integration:
+- Develop a Gmail extension or add-on to automatically flag spam emails in Gmail.
 
-Develop a Gmail extension or add-on to automatically flag spam emails in Gmail.
 Production Deployment:
+- Deploy the containerized application using a production-grade WSGI server (e.g., Gunicorn) behind a reverse proxy (e.g., Nginx).
 
-Deploy the containerized application using a production-grade WSGI server (e.g., Gunicorn) behind a reverse proxy (e.g., Nginx).
 Monitoring:
-
-Integrate tools for monitoring API usage and model performance over time.
+- Integrate tools for monitoring API usage and model performance over time (logging dashboards, metrics collection).
 
 11. Summary
-The Email Spam Detection System:
 
-Preprocesses and vectorizes email text.
-Trains and evaluates a machine learning model (Logistic Regression) to classify emails as spam or ham.
-Provides a REST API for predictions via a Flask application.
-Runs within a Docker container for consistent, portable deployment
+The Email Spam Detection System:
+- Cleans, preprocesses, and vectorizes email text using TF-IDF.
+- Trains and evaluates a Logistic Regression model (with optional hyperparameter tuning) for spam/ham classification.
+- Provides a Flask-based REST API (`/predict`) for real-time spam detection.
+- Offers Docker containerization for consistent, portable deployment.
+
+This setup ensures a robust foundation for continued enhancements, including expanded datasets, advanced classifiers, and seamless production deployments.
 
 
 This **README.md** file contains all sections neatly arranged, from introduction and installation steps to API usage, logging, and future enhancements. You can use this for documentation or present it as is. Let me know if you'd like any further changes!

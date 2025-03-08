@@ -4,24 +4,24 @@ import logging
 from flask import Flask, request, jsonify
 import joblib
 
-this_dir = os.path.dirname(os.path.abspath(__file__))
-src_path = os.path.join(this_dir, 'src')
-sys.path.insert(0, src_path)
-
-logging.basicConfig(level=logging.INFO,
-                    format="%(asctime)s [%(levelname)s] %(message)s",
-                    handlers=[
-                        logging.FileHandler("app.log"),
-                        logging.StreamHandler()
-                    ])
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("app.log"),
+        logging.StreamHandler()
+    ]
+)
 
 app = Flask(__name__)
 
 try:
-    model = joblib.load("models/tuned_logistic_regression_model.pkl")
-    logging.info("Model loaded successfully.")
+    # Load the entire pipeline (which includes the TfidfVectorizer)
+    model = joblib.load("models/spam_detector.pkl")
+    logging.info("Model (pipeline) loaded successfully.")
+    logging.info(f"Model type: {type(model)}")
 except Exception as e:
-    logging.error("Error loading model: %s", e)
+    logging.error("Error loading model pipeline: %s", e)
     sys.exit(1)
 
 @app.route('/predict', methods=['POST'])
@@ -34,8 +34,12 @@ def predict():
             return jsonify({"error": "No email_text provided."}), 400
 
         logging.info("Received prediction request for email_text: %s", email_text[:50])
+        
+        # Pass the raw text directly to the pipeline.
+        # The pipeline’s TfidfVectorizer step will handle preprocessing (basic_cleaning).
         prediction = model.predict([email_text])
         logging.info("Prediction: %s", prediction[0])
+        
         return jsonify({"prediction": prediction[0]})
     except Exception as e:
         logging.exception("Error during prediction:")

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spam Detector</title>
+  <script>
+    async function sendEmail() {
+      const emailText = document.getElementById("emailText").value;
+      const response = await fetch("http://127.0.0.1:5001/predict", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ email_text: emailText })
+      });
+      
+      const result = await response.json();
+      document.getElementById("result").innerText = "Prediction: " + result.prediction;
+    }
+  </script>
+</head>
+<body>
+  <h1>Spam Detector</h1>
+  <textarea id="emailText" rows="10" cols="50" placeholder="Paste your email text here"></textarea><br>
+  <button onclick="sendEmail()">Check Spam</button>
+  <h2 id="result"></h2>
+</body>
+</html>

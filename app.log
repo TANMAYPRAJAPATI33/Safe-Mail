@@ -1,0 +1,27 @@
+2025-02-23 03:40:54,549 [INFO] Model loaded successfully.
+2025-02-23 03:40:54,554 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.112.129:5001
+2025-02-23 03:40:54,554 [INFO] [33mPress CTRL+C to quit[0m
+2025-02-23 03:41:18,651 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-02-23 03:41:18,663 [INFO] Prediction: ham
+2025-02-23 03:41:18,664 [INFO] 127.0.0.1 - - [23/Feb/2025 03:41:18] "POST /predict HTTP/1.1" 200 -
+2025-02-27 13:22:03,507 [INFO] Model loaded successfully.
+2025-02-27 13:22:03,542 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.112.129:5001
+2025-02-27 13:22:03,542 [INFO] [33mPress CTRL+C to quit[0m
+2025-02-27 13:22:18,918 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-02-27 13:22:18,932 [INFO] Prediction: ham
+2025-02-27 13:22:18,933 [INFO] 127.0.0.1 - - [27/Feb/2025 13:22:18] "POST /predict HTTP/1.1" 200 -
+2025-02-27 14:33:24,315 [INFO] Model loaded successfully.
+2025-02-27 14:33:24,327 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.112.129:5001
+2025-02-27 14:33:24,328 [INFO] [33mPress CTRL+C to quit[0m
+2025-02-27 14:33:51,501 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
+2025-02-27 14:33:51,513 [INFO] Prediction: ham
+2025-02-27 14:33:51,513 [INFO] 127.0.0.1 - - [27/Feb/2025 14:33:51] "POST /predict HTTP/1.1" 200 -

@@ -3,7 +3,7 @@
 import joblib
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
-from src.data_preprocessing import load_data, split_data, get_vectorizer
+from data_preprocessing import load_data, split_data, get_vectorizer
 
 # Global variables to allow other modules to import them
 lr_pipeline = None

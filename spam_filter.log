@@ -1,0 +1,5 @@
+2025-03-12 02:53:07,220 - INFO - ✅ Spam model and vectorizer loaded successfully.
+2025-03-12 02:53:07,220 - INFO - 🔄 Running spam detection...
+2025-03-12 02:53:08,896 - ERROR - ❌ IMAP Connection Error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-03-12 02:53:08,898 - INFO - ✅ Spam detection completed.
+2025-03-12 02:54:15,016 - INFO - ✅ Spam model and vectorizer loaded successfully.

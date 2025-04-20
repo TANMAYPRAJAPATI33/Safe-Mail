@@ -6,20 +6,15 @@ import sys
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
 load_dotenv()
 
-# Email credentials from .env
 EMAIL_USER = os.getenv("EMAIL_USER")
 EMAIL_PASS = os.getenv("EMAIL_PASS")
-IMAP_SERVER = "imap.gmail.com"  # Gmail's IMAP server
-
-# Path to your trained model (pipeline that includes vectorizer)
+IMAP_SERVER = "imap.gmail.com" 
 MODEL_PATH = "models/spam_detector.pkl"
 
-# Thresholds for taking action
-MOVE_THRESHOLD = 0.90   # If spam probability >= this, move to Spam folder
-DELETE_THRESHOLD = 0.80 # If spam probability >= this (but < MOVE_THRESHOLD), delete the email
+MOVE_THRESHOLD = 0.90   
+DELETE_THRESHOLD = 0.80 
 
 def connect_email():
     """Connect to the email inbox using IMAP with an app password."""
@@ -31,7 +26,6 @@ def connect_email():
     except Exception as e:
         print("Error connecting to email:", e)
         sys.exit(1)
-
 def fetch_unread_emails(mail):
     """Fetch unread emails from the inbox."""
     try:
@@ -112,16 +106,16 @@ def process_emails():
         email_id = email_data["id"]
         subject = email_data["subject"]
 
-        # Check if raw_text is a string
+        
         if not isinstance(raw_text, str):
             print(f"Skipping email {email_id} because its body is not a string.\n")
             continue
 
-        # Preprocess the text: convert to lowercase
+       
         processed_text = raw_text.lower()
         
         try:
-            # Pass raw text directly to the pipeline model
+            
             prediction = model.predict([processed_text])[0]
             probabilities = model.predict_proba([processed_text])[0]
             spam_index = list(model.classes_).index("spam") if "spam" in model.classes_ else 1
@@ -130,10 +124,10 @@ def process_emails():
             print(f"Error during prediction for email {email_id}: {e}\n")
             continue
 
-        # Format spam probability as a percentage
+        
         spam_prob_pct = spam_prob * 100
         
-        # Determine action based on thresholds
+       
         if prediction == "spam":
             if spam_prob >= MOVE_THRESHOLD:
                 action = move_to_spam(mail, email_id)
@@ -143,8 +137,6 @@ def process_emails():
                 action = "No action taken due to low confidence"
         else:
             action = "Email is not spam"
-        
-        # Print the formatted output
         print("-" * 50)
         print(f"Email ID   : {email_id.decode() if isinstance(email_id, bytes) else email_id}")
         print(f"Subject    : {subject}")

@@ -34,4 +34,4 @@ def tune_logistic_regression_model(data_path, model_output_path, test_size=0.2, 
     return best_model, X_test, y_test
 
 if __name__ == "__main__":
-    tune_logistic_regression_model("data/spam_dataset.csv", "models/tuned_logistic_regression_model.pkl")
+    tune_logistic_regression_model("data/expanded_spam_dataset.csv", "models/tuned_logistic_regression_model.pkl")

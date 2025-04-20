@@ -17,4 +17,4 @@ def evaluate_model(model_path, data_path, test_size=0.5, random_state=42):
     print(confusion_matrix(y_test, y_pred))
 
 if __name__ == "__main__":
-    evaluate_model("models/logistic_regression_model.pkl", "data/spam_dataset.csv")
+    evaluate_model("models/logistic_regression_model.pkl", "data/expanded_spam_dataset.csv")

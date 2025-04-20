@@ -279,3 +279,1314 @@ AttributeError: 'csr_matrix' object has no attribute 'lower'
 2025-03-09 00:38:15,406 [INFO] Received prediction request for email_text: Congratulations! You have won a prize. Click here 
 2025-03-09 00:38:15,415 [INFO] Prediction: spam
 2025-03-09 00:38:15,416 [INFO] 127.0.0.1 - - [09/Mar/2025 00:38:15] "POST /predict HTTP/1.1" 200 -
+2025-04-16 18:01:37,326 [INFO] Model (pipeline) loaded successfully.
+2025-04-16 18:01:37,327 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-16 18:01:37,378 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-16 18:01:37,378 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-16 18:02:00,345 [INFO] 10.12.72.83 - - [16/Apr/2025 18:02:00] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-16 18:02:02,078 [INFO] 10.12.72.83 - - [16/Apr/2025 18:02:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-16 18:02:05,645 [INFO] 127.0.0.1 - - [16/Apr/2025 18:02:05] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-16 18:02:06,609 [INFO] 127.0.0.1 - - [16/Apr/2025 18:02:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-16 18:02:29,299 [INFO] 10.12.72.83 - - [16/Apr/2025 18:02:29] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-16 18:04:07,016 [INFO] Model (pipeline) loaded successfully.
+2025-04-16 18:04:07,016 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-16 18:04:07,032 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-16 18:04:07,032 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-16 18:04:14,137 [INFO] Received prediction request for email_text: Get rich quick now! Just send your bank details.
+2025-04-16 18:04:14,148 [INFO] Prediction: spam
+2025-04-16 18:04:14,149 [INFO] 127.0.0.1 - - [16/Apr/2025 18:04:14] "POST /predict HTTP/1.1" 200 -
+2025-04-19 20:51:54,437 [INFO] Model (pipeline) loaded successfully.
+2025-04-19 20:51:54,437 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-19 20:51:54,496 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-19 20:51:54,496 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 21:00:00,808 [INFO] Model (pipeline) loaded successfully.
+2025-04-19 21:00:00,808 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-19 21:00:00,825 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-19 21:00:00,825 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 21:01:23,702 [INFO] 127.0.0.1 - - [19/Apr/2025 21:01:23] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-19 21:01:23,709 [INFO] Received prediction request for email_text: Hi Tanmay Prajapati,
+
+We’re excited to announce th
+2025-04-19 21:01:23,734 [INFO] Prediction: spam
+2025-04-19 21:01:23,735 [INFO] 127.0.0.1 - - [19/Apr/2025 21:01:23] "POST /predict HTTP/1.1" 200 -
+2025-04-19 21:06:52,145 [INFO] Model (pipeline) loaded successfully.
+2025-04-19 21:06:52,145 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-19 21:06:52,158 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-19 21:06:52,158 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 21:07:40,373 [INFO] 127.0.0.1 - - [19/Apr/2025 21:07:40] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-19 21:07:40,380 [INFO] Received prediction request for email_text: hi
+2025-04-19 21:07:40,396 [INFO] Prediction: spam
+2025-04-19 21:07:40,397 [INFO] 127.0.0.1 - - [19/Apr/2025 21:07:40] "POST /predict HTTP/1.1" 200 -
+2025-04-19 21:08:15,952 [INFO] 127.0.0.1 - - [19/Apr/2025 21:08:15] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-19 21:08:15,956 [INFO] Received prediction request for email_text: hello this is spam
+2025-04-19 21:08:15,967 [INFO] Prediction: spam
+2025-04-19 21:08:15,968 [INFO] 127.0.0.1 - - [19/Apr/2025 21:08:15] "POST /predict HTTP/1.1" 200 -
+2025-04-19 21:11:23,383 [INFO] Model (pipeline) loaded successfully.
+2025-04-19 21:11:23,387 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-19 21:11:23,405 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-19 21:11:23,405 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 21:11:31,979 [INFO] 127.0.0.1 - - [19/Apr/2025 21:11:31] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-19 21:11:31,982 [INFO] Received prediction request for email_text: hell,e mnyasfjkbkdn
+2025-04-19 21:11:31,994 [INFO] Prediction: spam
+2025-04-19 21:11:31,994 [INFO] 127.0.0.1 - - [19/Apr/2025 21:11:31] "POST /predict HTTP/1.1" 200 -
+2025-04-19 21:11:44,091 [INFO] 127.0.0.1 - - [19/Apr/2025 21:11:44] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-19 21:11:44,096 [INFO] Received prediction request for email_text: hi 
+2025-04-19 21:11:44,104 [INFO] Prediction: spam
+2025-04-19 21:11:44,106 [INFO] 127.0.0.1 - - [19/Apr/2025 21:11:44] "POST /predict HTTP/1.1" 200 -
+2025-04-19 21:11:57,907 [INFO] 127.0.0.1 - - [19/Apr/2025 21:11:57] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-19 21:11:57,912 [INFO] Received prediction request for email_text: hi
+2025-04-19 21:11:57,918 [INFO] Prediction: spam
+2025-04-19 21:11:57,919 [INFO] 127.0.0.1 - - [19/Apr/2025 21:11:57] "POST /predict HTTP/1.1" 200 -
+2025-04-20 00:24:07,274 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 00:24:07,274 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 00:24:07,289 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 00:24:07,289 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 00:24:50,075 [INFO] 127.0.0.1 - - [20/Apr/2025 00:24:50] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 00:24:50,083 [INFO] Received prediction request for email_text: hi
+2025-04-20 00:24:50,104 [INFO] Prediction: spam
+2025-04-20 00:24:50,105 [INFO] 127.0.0.1 - - [20/Apr/2025 00:24:50] "POST /predict HTTP/1.1" 200 -
+2025-04-20 00:25:17,409 [INFO] 127.0.0.1 - - [20/Apr/2025 00:25:17] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 00:25:17,413 [INFO] Received prediction request for email_text: hello my name is tankmayt
+2025-04-20 00:25:17,422 [INFO] Prediction: spam
+2025-04-20 00:25:17,423 [INFO] 127.0.0.1 - - [20/Apr/2025 00:25:17] "POST /predict HTTP/1.1" 200 -
+2025-04-20 00:46:51,182 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 00:46:51,183 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 00:46:51,198 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 00:46:51,198 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 00:48:17,535 [INFO] 127.0.0.1 - - [20/Apr/2025 00:48:17] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 00:48:17,539 [INFO] Received prediction request for email_text: hi
+2025-04-20 00:48:17,567 [INFO] Prediction: spam
+2025-04-20 00:48:17,568 [INFO] 127.0.0.1 - - [20/Apr/2025 00:48:17] "POST /predict HTTP/1.1" 200 -
+2025-04-20 00:50:46,078 [INFO] 127.0.0.1 - - [20/Apr/2025 00:50:46] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 00:50:46,085 [INFO] Received prediction request for email_text:  my name is tanmay prajapati
+2025-04-20 00:50:46,105 [INFO] Prediction: spam
+2025-04-20 00:50:46,106 [INFO] 127.0.0.1 - - [20/Apr/2025 00:50:46] "POST /predict HTTP/1.1" 200 -
+2025-04-20 00:56:38,980 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 00:56:38,980 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 00:56:38,992 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 00:56:38,992 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 00:57:19,972 [INFO] 127.0.0.1 - - [20/Apr/2025 00:57:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 00:57:19,978 [INFO] Received prediction request for email_text: uj
+2025-04-20 00:57:19,999 [INFO] Prediction: spam
+2025-04-20 00:57:20,000 [INFO] 127.0.0.1 - - [20/Apr/2025 00:57:20] "POST /predict HTTP/1.1" 200 -
+2025-04-20 15:40:31,986 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 15:40:31,986 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 15:40:32,000 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 15:40:32,000 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 15:41:11,880 [INFO] 127.0.0.1 - - [20/Apr/2025 15:41:11] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 15:41:11,884 [INFO] Received prediction request for email_text: hi
+2025-04-20 15:41:11,904 [INFO] Prediction: spam
+2025-04-20 15:41:11,905 [INFO] 127.0.0.1 - - [20/Apr/2025 15:41:11] "POST /predict HTTP/1.1" 200 -
+2025-04-20 15:43:33,159 [INFO] 127.0.0.1 - - [20/Apr/2025 15:43:33] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 15:43:33,164 [INFO] Received prediction request for email_text: hey you won a lottery
+2025-04-20 15:43:33,172 [INFO] Prediction: spam
+2025-04-20 15:43:33,174 [INFO] 127.0.0.1 - - [20/Apr/2025 15:43:33] "POST /predict HTTP/1.1" 200 -
+2025-04-20 15:45:31,029 [INFO] 127.0.0.1 - - [20/Apr/2025 15:45:31] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 15:45:31,041 [INFO] Received prediction request for email_text: ghii
+
+2025-04-20 15:45:31,051 [INFO] Prediction: spam
+2025-04-20 15:45:31,052 [INFO] 127.0.0.1 - - [20/Apr/2025 15:45:31] "POST /predict HTTP/1.1" 200 -
+2025-04-20 16:41:46,083 [ERROR] Error loading model: No module named 'data_preprocessing'
+2025-04-20 16:43:46,913 [ERROR] Error loading model: Can't get attribute 'FeatureExtractor' on <module '__main__' from '/Users/tanmayprajapati/Safe-Mail/app.py'>
+2025-04-20 16:59:11,218 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 16:59:11,218 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 16:59:11,234 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 16:59:11,234 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 16:59:26,390 [INFO] 127.0.0.1 - - [20/Apr/2025 16:59:26] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 16:59:26,396 [INFO] Received prediction request for email_text: jhi
+2025-04-20 16:59:26,422 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 62, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1535, in _transform_one
+    return res * weight
+           ~~~~^~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+2025-04-20 16:59:26,431 [INFO] 127.0.0.1 - - [20/Apr/2025 16:59:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 16:59:27,367 [INFO] Received prediction request for email_text: jhi
+2025-04-20 16:59:27,370 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 62, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1535, in _transform_one
+    return res * weight
+           ~~~~^~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+2025-04-20 16:59:27,374 [INFO] 127.0.0.1 - - [20/Apr/2025 16:59:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:01:18,729 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 17:01:18,729 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 17:01:18,742 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 17:01:18,742 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 17:01:47,553 [INFO] 127.0.0.1 - - [20/Apr/2025 17:01:47] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:01:47,557 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:01:47,581 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1535, in _transform_one
+    return res * weight
+           ~~~~^~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+2025-04-20 17:01:47,588 [INFO] 127.0.0.1 - - [20/Apr/2025 17:01:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:01:48,395 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:01:48,397 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1535, in _transform_one
+    return res * weight
+           ~~~~^~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+2025-04-20 17:01:48,408 [INFO] 127.0.0.1 - - [20/Apr/2025 17:01:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:05:56,479 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 17:05:56,480 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 17:05:56,490 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 17:05:56,490 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 17:06:37,168 [INFO] 127.0.0.1 - - [20/Apr/2025 17:06:37] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:06:37,172 [INFO] Received prediction request for email_text: hui
+2025-04-20 17:06:37,191 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:06:37,206 [INFO] 127.0.0.1 - - [20/Apr/2025 17:06:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:06:37,952 [INFO] Received prediction request for email_text: hui
+2025-04-20 17:06:37,955 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:06:37,957 [INFO] 127.0.0.1 - - [20/Apr/2025 17:06:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:06:38,131 [INFO] Received prediction request for email_text: hui
+2025-04-20 17:06:38,133 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:06:38,135 [INFO] 127.0.0.1 - - [20/Apr/2025 17:06:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:31,957 [INFO] Data preprocessing script started
+2025-04-20 17:10:32,658 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 17:10:32,658 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 17:10:32,674 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 17:10:32,674 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 17:10:52,664 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:52] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:10:52,667 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:52,686 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:52,696 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:53,289 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:53,291 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:53,293 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:53,441 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:53,443 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:53,445 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:53,604 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:53,606 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:53,607 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:53,751 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:53,752 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:53,753 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:53,921 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:53,923 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:53,925 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:54,071 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:54,075 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:54,078 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:54,253 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:54,255 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:54,256 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:54,424 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:54,426 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:54,427 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:54,604 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:54,606 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:54,607 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:54,787 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:54,788 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:54,790 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:55,003 [INFO] Received prediction request for email_text: hi
+2025-04-20 17:10:55,005 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:55,006 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:57,770 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:57] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:10:57,774 [INFO] Received prediction request for email_text: hibwehfawae
+2025-04-20 17:10:57,775 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:57,779 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:58,321 [INFO] Received prediction request for email_text: hibwehfawae
+2025-04-20 17:10:58,322 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:58,324 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:58,455 [INFO] Received prediction request for email_text: hibwehfawae
+2025-04-20 17:10:58,456 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:58,458 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:10:58,635 [INFO] Received prediction request for email_text: hibwehfawae
+2025-04-20 17:10:58,639 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/src/feature_engineering.py", line 74, in transform
+    features = X["text_column"].astype(str).values
+               ~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-04-20 17:10:58,641 [INFO] 127.0.0.1 - - [20/Apr/2025 17:10:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:13:50,094 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 17:13:50,094 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 17:13:50,109 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 17:13:50,109 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 17:14:30,303 [INFO] Received prediction request for email_text: Congratulations! You've won a free prize. Click here to claim your reward.
+2025-04-20 17:14:30,319 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 63, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1535, in _transform_one
+    return res * weight
+           ~~~~^~~~~~~~
+numpy._core._exceptions._UFuncNoLoopError: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U74'), dtype('float64')) -> None
+2025-04-20 17:14:30,328 [INFO] 127.0.0.1 - - [20/Apr/2025 17:14:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:15:21,676 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 17:15:21,676 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 17:15:21,683 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 17:15:21,683 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 17:15:35,830 [INFO] Received prediction request for email_text: Congratulations! You've won a free prize. Click here to claim your reward.
+2025-04-20 17:15:35,854 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 64, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1535, in _transform_one
+    return res * weight
+           ~~~~^~~~~~~~
+numpy._core._exceptions._UFuncNoLoopError: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U74'), dtype('float64')) -> None
+2025-04-20 17:15:35,862 [INFO] 127.0.0.1 - - [20/Apr/2025 17:15:35] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:15:36,950 [INFO] Received prediction request for email_text: Congratulations! You've won a free prize. Click here to claim your reward.
+2025-04-20 17:15:36,951 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 64, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1535, in _transform_one
+    return res * weight
+           ~~~~^~~~~~~~
+numpy._core._exceptions._UFuncNoLoopError: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U74'), dtype('float64')) -> None
+2025-04-20 17:15:36,952 [INFO] 127.0.0.1 - - [20/Apr/2025 17:15:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:16:47,104 [INFO] Model (pipeline) loaded successfully.
+2025-04-20 17:16:47,104 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 17:16:47,116 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 17:16:47,117 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 17:16:50,472 [INFO] Received prediction request for email_text: Congratulations! You've won a free prize. Click here to claim your reward.
+2025-04-20 17:16:50,493 [ERROR] Error during prediction:
+Traceback (most recent call last):
+  File "/Users/tanmayprajapati/Safe-Mail/app.py", line 64, in predict
+    pred_proba = model.predict_proba([email_text])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 903, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 2041, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tanmayprajapati/Safe-Mail/Safe Mail/lib/python3.11/site-packages/sklearn/pipeline.py", line 1535, in _transform_one
+    return res * weight
+           ~~~~^~~~~~~~
+numpy._core._exceptions._UFuncNoLoopError: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U74'), dtype('float64')) -> None
+2025-04-20 17:16:50,500 [INFO] 127.0.0.1 - - [20/Apr/2025 17:16:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-20 17:21:42,956 [INFO] Model loaded successfully.
+2025-04-20 17:21:42,957 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 17:21:42,982 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 17:21:42,982 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 17:21:46,051 [INFO] Prediction request for: Congratulations! You've won a free prize. Click here to clai...
+2025-04-20 17:21:46,075 [INFO] Prediction: spam, Spam prob: 0.9894
+2025-04-20 17:21:46,076 [INFO] 127.0.0.1 - - [20/Apr/2025 17:21:46] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:22:18,948 [INFO] 127.0.0.1 - - [20/Apr/2025 17:22:18] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:22:18,955 [INFO] Prediction request for: hi...
+2025-04-20 17:22:18,992 [INFO] Prediction: ham, Spam prob: 0.2058
+2025-04-20 17:22:18,993 [INFO] 127.0.0.1 - - [20/Apr/2025 17:22:18] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:22:27,772 [INFO] 127.0.0.1 - - [20/Apr/2025 17:22:27] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:22:27,775 [INFO] Prediction request for: import joblib
+import pandas as pd
+import numpy as np
+from sk...
+2025-04-20 17:22:27,793 [INFO] Prediction: spam, Spam prob: 0.9774
+2025-04-20 17:22:27,794 [INFO] 127.0.0.1 - - [20/Apr/2025 17:22:27] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:22:36,090 [INFO] 127.0.0.1 - - [20/Apr/2025 17:22:36] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:22:36,094 [INFO] Prediction request for: hi my nameis tanmay...
+2025-04-20 17:22:36,100 [INFO] Prediction: ham, Spam prob: 0.2030
+2025-04-20 17:22:36,101 [INFO] 127.0.0.1 - - [20/Apr/2025 17:22:36] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:22:53,232 [INFO] 127.0.0.1 - - [20/Apr/2025 17:22:53] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:22:53,236 [INFO] Prediction request for: {
+  "email_text": "Congratulations! You've won a free prize....
+2025-04-20 17:22:53,257 [INFO] Prediction: spam, Spam prob: 0.9894
+2025-04-20 17:22:53,258 [INFO] 127.0.0.1 - - [20/Apr/2025 17:22:53] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:23:06,359 [INFO] 127.0.0.1 - - [20/Apr/2025 17:23:06] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:23:06,362 [INFO] Prediction request for: hi...
+2025-04-20 17:23:06,369 [INFO] Prediction: ham, Spam prob: 0.2058
+2025-04-20 17:23:06,370 [INFO] 127.0.0.1 - - [20/Apr/2025 17:23:06] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:23:12,041 [INFO] 127.0.0.1 - - [20/Apr/2025 17:23:12] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:23:12,043 [INFO] Prediction request for: {
+  "email_text": "Congratulations! You've won a free prize....
+2025-04-20 17:23:12,052 [INFO] Prediction: spam, Spam prob: 0.9894
+2025-04-20 17:23:12,053 [INFO] 127.0.0.1 - - [20/Apr/2025 17:23:12] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:25:16,091 [INFO] 127.0.0.1 - - [20/Apr/2025 17:25:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:25:16,099 [INFO] Prediction request for: Subject: Congratulations! You've Won a Free Prize!
+
+Dear Win...
+2025-04-20 17:25:16,132 [INFO] Prediction: spam, Spam prob: 0.9989
+2025-04-20 17:25:16,132 [INFO] 127.0.0.1 - - [20/Apr/2025 17:25:16] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:25:25,609 [INFO] 127.0.0.1 - - [20/Apr/2025 17:25:25] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:25:25,612 [INFO] Prediction request for: Subject: Exclusive Offer! Get 50% Off Today Only!
+
+Hi there,...
+2025-04-20 17:25:25,627 [INFO] Prediction: spam, Spam prob: 0.9270
+2025-04-20 17:25:25,628 [INFO] 127.0.0.1 - - [20/Apr/2025 17:25:25] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:25:33,044 [INFO] 127.0.0.1 - - [20/Apr/2025 17:25:33] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:25:33,047 [INFO] Prediction request for: Subject: Meeting Minutes from Today’s Discussion
+
+Hi John,
+
+...
+2025-04-20 17:25:33,063 [INFO] Prediction: ham, Spam prob: 0.2068
+2025-04-20 17:25:33,064 [INFO] 127.0.0.1 - - [20/Apr/2025 17:25:33] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:30:25,374 [INFO] Model loaded successfully.
+2025-04-20 17:30:25,375 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 17:30:25,388 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 17:30:25,388 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 17:30:27,131 [INFO] 127.0.0.1 - - [20/Apr/2025 17:30:27] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:30:27,133 [INFO] Prediction request for: Subject: Exclusive Offer! Get 50% Off Today Only!
+
+Hi there,...
+2025-04-20 17:30:27,146 [INFO] Prediction: spam, Spam prob: 0.9270
+2025-04-20 17:30:27,147 [INFO] 127.0.0.1 - - [20/Apr/2025 17:30:27] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:34:43,739 [INFO] 127.0.0.1 - - [20/Apr/2025 17:34:43] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:34:43,743 [INFO] Prediction request for: hi...
+2025-04-20 17:34:43,766 [INFO] Prediction: ham, Spam prob: 0.2058
+2025-04-20 17:34:43,767 [INFO] 127.0.0.1 - - [20/Apr/2025 17:34:43] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:35:28,808 [INFO] 127.0.0.1 - - [20/Apr/2025 17:35:28] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:35:28,813 [INFO] Prediction request for: Subject: URGENT: Account Suspended – Reactivate Now!
+
+Dear u...
+2025-04-20 17:35:28,832 [INFO] Prediction: spam, Spam prob: 0.6375
+2025-04-20 17:35:28,832 [INFO] 127.0.0.1 - - [20/Apr/2025 17:35:28] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:35:52,910 [INFO] 127.0.0.1 - - [20/Apr/2025 17:35:52] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:35:52,913 [INFO] Prediction request for: Subject: Remote Job – $500/Day – No Experience Needed!
+
+Hey ...
+2025-04-20 17:35:52,929 [INFO] Prediction: spam, Spam prob: 0.5926
+2025-04-20 17:35:52,929 [INFO] 127.0.0.1 - - [20/Apr/2025 17:35:52] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:39:01,361 [INFO] 127.0.0.1 - - [20/Apr/2025 17:39:01] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:39:01,365 [INFO] Prediction request for: Subject: Your Computer Is Infected – Call Now!
+
+Attention: Y...
+2025-04-20 17:39:01,392 [INFO] Prediction: ham, Spam prob: 0.3432
+2025-04-20 17:39:01,393 [INFO] 127.0.0.1 - - [20/Apr/2025 17:39:01] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:39:34,917 [INFO] 127.0.0.1 - - [20/Apr/2025 17:39:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:39:34,920 [INFO] Prediction request for: Subject: Final Warning – Legal Action Pending
+
+You are in vi...
+2025-04-20 17:39:34,939 [INFO] Prediction: ham, Spam prob: 0.3298
+2025-04-20 17:39:34,939 [INFO] 127.0.0.1 - - [20/Apr/2025 17:39:34] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:39:43,567 [INFO] 127.0.0.1 - - [20/Apr/2025 17:39:43] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:39:43,570 [INFO] Prediction request for: Subject: I Know What You Did – Pay Me Or Everyone Finds Out
+...
+2025-04-20 17:39:43,588 [INFO] Prediction: ham, Spam prob: 0.1911
+2025-04-20 17:39:43,589 [INFO] 127.0.0.1 - - [20/Apr/2025 17:39:43] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:39:57,366 [INFO] 127.0.0.1 - - [20/Apr/2025 17:39:57] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:39:57,369 [INFO] Prediction request for: Subject: URGENT: Account Suspended – Reactivate Now!
+
+Dear u...
+2025-04-20 17:39:57,385 [INFO] Prediction: spam, Spam prob: 0.6375
+2025-04-20 17:39:57,385 [INFO] 127.0.0.1 - - [20/Apr/2025 17:39:57] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:42:17,625 [INFO] 127.0.0.1 - - [20/Apr/2025 17:42:17] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:42:17,628 [INFO] Prediction request for: Subject: You Won $5,000! Claim Now Before It’s Too Late!
+
+Co...
+2025-04-20 17:42:17,649 [INFO] Prediction: spam, Spam prob: 0.9580
+2025-04-20 17:42:17,649 [INFO] 127.0.0.1 - - [20/Apr/2025 17:42:17] "POST /predict HTTP/1.1" 200 -
+2025-04-20 17:46:01,373 [INFO] Model loaded successfully.
+2025-04-20 17:46:01,374 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 17:46:01,389 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 17:46:01,389 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 17:46:11,645 [INFO] 127.0.0.1 - - [20/Apr/2025 17:46:11] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 17:46:11,648 [INFO] Prediction request for: hi...
+2025-04-20 17:46:11,669 [INFO] Prediction: ham, Spam prob: 0.2058
+2025-04-20 17:46:11,670 [INFO] 127.0.0.1 - - [20/Apr/2025 17:46:11] "POST /predict HTTP/1.1" 200 -
+2025-04-20 21:43:41,197 [INFO] Model loaded successfully.
+2025-04-20 21:43:41,197 [INFO] Model type: <class 'sklearn.pipeline.Pipeline'>
+2025-04-20 21:43:41,214 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.12.72.83:5001
+2025-04-20 21:43:41,215 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-20 21:47:43,512 [INFO] 127.0.0.1 - - [20/Apr/2025 21:47:43] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-20 21:47:43,518 [INFO] Prediction request for: hi...
+2025-04-20 21:47:43,554 [INFO] Prediction: ham, Spam prob: 0.2058
+2025-04-20 21:47:43,555 [INFO] 127.0.0.1 - - [20/Apr/2025 21:47:43] "POST /predict HTTP/1.1" 200 -

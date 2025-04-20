@@ -22,4 +22,4 @@ def train_naive_bayes_model(data_path, model_output_path, test_size=0.5, random_
     return nb_pipeline, X_test, y_test
 
 if __name__ == "__main__":
-    model, X_test, y_test = train_naive_bayes_model("data/spam_dataset.csv", "models/naive_bayes_model.pkl")
+    model, X_test, y_test = train_naive_bayes_model("data/expanded_spam_dataset.csvv", "models/naive_bayes_model.pkl")
